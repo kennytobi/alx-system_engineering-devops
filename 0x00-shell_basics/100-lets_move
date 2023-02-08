@@ -1,2 +1,2 @@
 #!/bin/bash
-for file in * do [[ "$file" =~ ^[A-Z].* ]] mv "$file" ls -la /tmp/u done
+mv [[:upper:]]* /tmp/u
