@@ -1,0 +1,3 @@
+#!/bin/bash
+group=$(id -Gn)
+echo $groups
